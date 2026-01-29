@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizzaria Dom Dinho</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .home-container {
+      text-align: center;
+      padding: 60px 20px;
+      background: #FFFFFF url("imagens/backgroundtijolo.png") right top fixed;
+      background-color: #fff8f0;
+      color: #2c1d10;
+    }
+
+    .home-container .logo {
+      height: 250px;
+      margin-bottom: 30px;
+      animation: fadeIn 1.2s ease;
+    }
+
+    .home-container h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #ffb006;
+      animation: fadeInUp 1s ease;
+    }
+
+    .home-container p {
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: #ffffff;
+      animation: fadeInUp 1.3s ease;
+    }
+
+    .menu-button {
+      padding: 15px 35px;
+      border: 2px solid #8b6106;
+      border-radius: 30px;
+      background-color: #ffb006;
+      color: #000;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .menu-button:hover {
+      background-color: #a37000;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="home-container">
+    <img src="imagens/pizzadomdinho.png" alt="Logo da Pizzaria Dom Dinho" class="logo" />
+    <h1>Bem-vindo à Pizzaria Dom Dinho</h1>
+    <p>
+  <img src="imagens/icon_telefone.png" class="icon-inline"> Telefone: (11) 91376-8904<br>
+  <img src="imagens/icon_whatsapp.png" class="icon-inline"> WhatsApp: (11) 91376-8904<br>
+  <img src="imagens/icon_instagram.png" class="icon-inline"> Instagram: @domdinho_oficiaal
+</p>
+
+<a href="cardapio.html">
+  <button class="menu-button">
+    <img src="imagens/icon_cardapio.png" class="icon-inline"> Ver Cardápio
+  </button>
+</a>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Pizzaria Dom Dinho. Alunos da Estácio - Santo André. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
